@@ -11,7 +11,7 @@ export const paymentList: Array<Payment> = []
 export const propertyCollections: Array<Property> = []
 
 // ✅ Good example:
-export const users: Array<User> = []
+export const Users: Array<User> = []
 export const payments: Array<Payment> = []
 export const properties: Array<Property> = []
 

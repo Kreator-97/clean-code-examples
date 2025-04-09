@@ -13,24 +13,24 @@ import { User } from "../interfaces/user"
 // Bad ❌
 export async function getUser(userId: string): Promise<User> {
   // Fetch user from API
-  const user = await fetch(`https://api.example.com/users/${userId}`)
+  const res = await fetch(`https://api.example.com/users/${userId}`)
   // Check if user exists
-  if (!user) {
+  if (!res) {
     throw new Error(`User with id ${userId} not found`)
   }
   // Return user data
-  return user.json()
+  return res.json()
 }
 
 // Good ✅
 export async function getPostsByAuthor(authorId: string): Promise<Author> {
-  const user = await fetch(`https://api.example.com/posts/${authorId}`)
+  const res = await fetch(`https://api.example.com/posts/${authorId}`)
 
-  if (!user) {
+  if (!res) {
     throw new Error(`User with id ${authorId} not found`)
   }
 
-  return user.json()
+  return res.json()
 }
 
 // Los comentarios debe ser usados para justificar el "por que" de una decisión y no el "como" se hace.

@@ -21,7 +21,7 @@ const employeeSalaries = [ 2000, 2200, 4000, 2000, 1000 ]
 const totalPayroll = employeeSalaries.reduce((acc, salary) => acc + salary, 0)
 console.log(totalPayroll)
 
-// Debido a que la programación declarative y funciona puede ser algo más dificil de entender, se recomienda no usar abreviaciones
+// Debido a que la programación declarativa y funcional puede ser algo más dificil de entender, se recomienda no usar abreviaciones
 
 // Bad ❌
 const annualSalary = employeeSalaries.reduce((a, s) => a + (s * 12), 0)
@@ -29,7 +29,7 @@ console.log(annualSalary)
 
 // Good ✅
 const totalPaymentsPerYear = 12
-const expectedAnnualSalary = employeeSalaries.reduce((acc, salary) => acc + (salary * totalPaymentsPerYear), 0)
+const expectedAnnualSalary = employeeSalaries.reduce((accumulator, salary) => accumulator + (salary * totalPaymentsPerYear), 0)
 console.log(expectedAnnualSalary)
 
 // Example with forEach

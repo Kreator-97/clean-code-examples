@@ -21,6 +21,6 @@ export class User {
 }
 
 export class Payment {
-  createPayment(){}
-  updatePayment(){}
+  create(){}
+  update(){}
 }

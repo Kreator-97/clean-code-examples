@@ -8,6 +8,6 @@ export const cars = 10
 export const seats = 5
 
 // Good ✅
-export const totalUsersActive = 3
+export const totalActiveUsers = 3
 export const totalCarsForSale = 10
 export const minSeatsPerLesson = 5

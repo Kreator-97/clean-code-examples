@@ -11,7 +11,7 @@ export const notEmpty = true
 // Good ✅
 export const isOpen = true
 export const canWrite = true
-export const hasPayments = true
+export const hasPendingPayments = true
 export const isEmpty = true
 
 export const age = 18

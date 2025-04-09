@@ -45,6 +45,13 @@ export const DEFAULT_LANGUAGE = "en"
 // Usar kebab-case para nombres de archivos
 // Ejemplos
 
+// Bad ❌
+// src/components/UserProfile.tsx
+// src/utils/FormatDate.ts
+// src/hooks/UseFetch.ts
+// src/styles/GlobalStyles.css
+// src/constants/ApiEndpoints.ts
+
 // Good ✅
 // src/components/user-profile.tsx
 // src/utils/format-date.ts
@@ -53,9 +60,4 @@ export const DEFAULT_LANGUAGE = "en"
 // src/constants/api-endpoints.ts
 
 
-// Bad ❌
-// src/components/UserProfile.tsx
-// src/utils/FormatDate.ts
-// src/hooks/UseFetch.ts
-// src/styles/GlobalStyles.css
-// src/constants/ApiEndpoints.ts
+

@@ -25,6 +25,14 @@ export function calculateTotalOrderPrice({ discount, price, shipping, tax }: Cal
   return price + tax - discount + shipping
 }
 
+// calculateTotalPrice(100, 1.6, 0.5, 2)
+calculateTotalOrderPrice({
+  discount: 0.5,
+  shipping: 2,
+  tax: 1.6,
+  price: 100,
+})
+
 // Evita los argumentos de bandera.
 // Los argumentos de bandera son argumentos que cambian el comportamiento de una función.
 // Esto puede hacer que la función sea difícil de entender y mantener.

@@ -1,9 +1,10 @@
+import { Payment } from "../interfaces/payment"
+
 // Naming Variables
 
 // El nombre de una variable debe ser descriptivo y claro
 // Pero un nombre significativo debe de responder a las siguientes preguntas:
 
-import { Payment } from "../interfaces/payment"
 
 // 1. ¿Por que existe?
 // 2. ¿Que hace?

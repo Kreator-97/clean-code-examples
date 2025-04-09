@@ -11,9 +11,9 @@ export const television45InchesPrice = 6000
 export const television50InchesPrice = 7000
 export const television55InchesPrice = 8000
 
-export const television45InchesWithTax = television45InchesPrice + (television45InchesPrice * IVA_RATE)
-export const television50InchesWithTax = television50InchesPrice + (television50InchesPrice * IVA_RATE)
-export const television55InchesWithTax = television55InchesPrice + (television55InchesPrice * IVA_RATE)
+// export const television45InchesWithTax = television45InchesPrice + (television45InchesPrice * IVA_RATE)
+// export const television50InchesWithTax = television50InchesPrice + (television50InchesPrice * IVA_RATE)
+// export const television55InchesWithTax = television55InchesPrice + (television55InchesPrice * IVA_RATE)
 
 // Good ✅
 export const calculatePriceWithTax = (price: number): number => price + (price * IVA_RATE)
